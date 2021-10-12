@@ -11,7 +11,7 @@ Mit dieser können die animierten Plots entweder als .avi oder als .gif abgespei
 
 #### create_avi.py
 Hiermit können alle .pkl-Files in einem Ordner animiert und abgespeichert werden. Das Format in dem die Animationen gespeichert werden, 
-werden im *create_Dataset.ipnb*-File festgelegt.  return
+werden im *create_Dataset.ipnb*-File festgelegt.  
 **Hinweis:** Es ist wichtig darauf zu achten, dass der Ordner nur .pfl-Files enthält, sonst kommt es zu einer Fehlermeldung!
 
 #### create_Dataset.ipynb
