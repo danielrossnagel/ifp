@@ -1,8 +1,8 @@
 #!/bin/python
 '''
 Usage (from parent directory):
-# python create_mpg --model=Sand
-python -m create_mpg --model=WaterDropSample
+# python create_avi --model=Sand
+python -m create_avi --model=WaterDropSample
 
 Attention: The folder can currently only contain .pkl files. Otherwise it outputs an error.
 '''
@@ -16,7 +16,6 @@ from absl import flags
 from matplotlib import animation
 import matplotlib.pyplot as plt
 import numpy as np
-plt.rcParams['animation.ffmpeg_path'] = r'C:\\Users\\Rossi-PC\\Downloads\\ffmpeg-2021-08-10-git-c245963a21-full_build\\bin\\ffmpeg.exe'
 
 flags.DEFINE_string("model", None, help="Path to rollout pickle file")
 flags.DEFINE_string("base_path", None, help="Path to rollout pickle file")
