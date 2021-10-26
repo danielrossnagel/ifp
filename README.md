@@ -21,5 +21,9 @@ Dieser Code wurde als Funktion auch in das *train.py* Dokument eingefügt um den
 #### IFP_Paper_Rossnagel_Daniel.pdf
 Dies ist das erstellte Paper zum IFP.
 
+#### read_preprocessed_tfrecord.ipynb
+Hiermit kann der Inhalt der geladenen und bearbeiteten Datensätze gelesen werden.
+**Hinweis:** Hier muss vor dem Ausführen die Dateipfade angepasst werden.
+
 #### read_tfrecord.ipynb
 Mit diesem Notebook kann der Inhalt der Datensätze gelesen werden.
